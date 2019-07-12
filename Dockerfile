@@ -1,4 +1,4 @@
-FROM ibmcom/db2express-c:10.5.0.5-3.10.0
+FROM https://hub.docker.com/r/henriquemoreno/db2express-c
 
 RUN useradd christian
 RUN echo "christian:christian" | paso
