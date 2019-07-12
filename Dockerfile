@@ -1,4 +1,4 @@
-FROM ibmcom/db2
+FROM ibmcom/db2express-c
 
 RUN useradd christian
 RUN echo "christian:christian" | chpasswd
